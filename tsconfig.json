@@ -1,7 +1,6 @@
 //
-
 {
-  "include": ["src", "declaration.d.ts"],
+  "include": ["src", "declaration.d.ts", "src/tests"],
   "exclude": ["dist", "node_modules"],
   "compilerOptions": {
     "module": "esnext",
@@ -20,6 +19,7 @@
     "jsx": "react",
     "esModuleInterop": true,
     "skipLibCheck": true,
-    "forceConsistentCasingInFileNames": true
+    "forceConsistentCasingInFileNames": true,
+    "allowJs":true
   }
 }
